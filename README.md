@@ -75,14 +75,14 @@ All endpoints that accepts `POST` and `PATCH` request methods, expect `applicati
     {
       "user": {
           "age": 22,
-          "_id": "5c88d692da13be0017bda5e1",
+          "_id": "5c88d692da13be0017bda5g1",
           "name": "Harshit",
           "email": "harshit@example.com",
           "createdAt": "2021-05-13T10:08:18.045Z",
           "updatedAt": "2021-05-13T10:08:18.226Z",
           "__v": 1
       },
-      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1Yzg4ZDY5MmRhMTNiZTAwMTdiZGE1ZTEiLCJpYXQiOjE1NTI0NzE2OTh9.mLgW3hHi5vOgexwOYYkPZSNP0oaFGTXLZJSFpZlStzA"
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1Yzg4ZDY5MmRhMTNiZTAwMTdiZGE1ZTEiLCJpYXQiOjE1NTI0NzE2OTh9.mLgW3hHi5vOgexwOYYkPZSNP0oaFGTXLZJSFpZlStpA"
     }
     ```
  
