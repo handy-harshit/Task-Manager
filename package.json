@@ -1,0 +1,40 @@
+{
+  "name": "task-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "env-cmd ./config/dev.env nodemon src/index.js",
+    "test": "env-cmd ./config/test.env jest --watch --runInBand"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "10.14.1",
+    "npm": "6.8.0"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
+    "bcryptjs": "^2.4.3",
+    "buffer-type": "^1.0.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.0",
+    "mongodb": "^3.1.13",
+    "mongoose": ">5.7.4",
+    "multer": "^1.4.1",
+    "sharp": "^0.21.3",
+    "showdown": "^1.9.0",
+    "validator": "^10.11.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^8.0.2",
+    "jest": "^24.3.1",
+    "nodemon": "^1.18.10",
+    "supertest": "^3.4.2"
+  }
+}
